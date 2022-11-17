@@ -44,3 +44,31 @@ const UseRefHook = () => {
 }
 
 export default UseRefHook;
+
+
+//just for showing how react useRef can be used in password & email!
+
+// function test(){
+//     const emailRef = useRef();
+//     const passwordRef = useRef();
+
+//     function onSubmit(e){
+//         e.preventDefault();
+//         console.log({
+//             email: emailRef.current.value,
+//             password: passwordRef.current.value
+//         })
+//     }
+
+//     return (
+//     <>
+//     <form onSubmit={onSubmit}>
+//         <label>Email</label>
+//         <input ref={emailRef} type="email" id="email"></input>
+//         <label>password</label>
+//         <input ref={passwordRef} type="password" id="password"></input>
+//         <button type='submit'>Submit</button>
+//     </form>
+//     </>
+//     )
+// }
